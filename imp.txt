@@ -1,0 +1,12 @@
+vinejs-->use for validation check.
+create migrate after model craeation:
+1)npx prisma migrate dev --name news_table
+
+helmet-->package help us to provide extra security.
+redis-->use for caching.
+
+docker run -d --name redis -p 6379:6379 -p 8001:8001 redis/redis-stack
+winstonjs-->use for email sending purpose.
+
+nodemailer-->used to send email.
+ bullmq -->used to create queue of email
